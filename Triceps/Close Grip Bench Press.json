@@ -1,0 +1,25 @@
+{
+  "name": "Close Grip Bench Press",
+  "category": "Triceps",
+  "url": "https://www.simplyfitness.com/pages/close-grip-bench-press",
+  "lead": "Exercise for triceps, chest and anterior deltoids",
+  "instructions": {
+    "starting position": "Lying on the bench, your feet flat on the floor. Grasp the bar with a pronation grip, hands slightly tighter than shoulder width.",
+    "execution": "Unhook the bar and slowly lower it to the lower part of your chest. Then push the load upwards until your arms are straight.",
+    "tips": [
+      "Keep your elbows pressed against your body to put maximum strain on your triceps and protect your elbow joint.",
+      "Keep your shoulders flat against the bench."
+    ]
+  },
+  "equipment": [
+    "EZ Barbell",
+    "Bench"
+  ],
+  "main_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Anterior deltoids",
+    "Chest"
+  ]
+}

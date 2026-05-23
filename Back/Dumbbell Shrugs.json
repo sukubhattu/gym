@@ -1,0 +1,17 @@
+{
+  "name": "Dumbbell Shrugs",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/dumbbell-shrugs",
+  "lead": "Exercise for trapezius muscles",
+  "instructions": {
+    "starting position": "Standing, arms stretched out along the body, one dumbbell in each hand.",
+    "execution": "Keeping your arms outstretched, raise your shoulders as high as possible. Contract your trapezius muscles at the top of the movement, then slowly return to the initial position."
+  },
+  "equipment": [
+    "Dumbbells"
+  ],
+  "main_muscles": [
+    "Trapezius muscles"
+  ],
+  "secondary_muscles": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Single Leg Extension",
+  "category": "Legs",
+  "url": "https://www.simplyfitness.com/pages/single-leg-extension",
+  "lead": "Exercise for quadriceps",
+  "instructions": {
+    "starting position": "Adjust the leg extension so that when you sit, your knee is at the edge of the bench and your ankle is just below the footrest. Sit with your back firmly against the backrest, holding the handles on the sides.",
+    "execution": "Extend your leg until it is fully extended. Hold the load for a moment in the high position by contracting your quadriceps, then return to the low position. Once your series is completed, do the same with the other leg."
+  },
+  "equipment": [
+    "Leg extension machine"
+  ],
+  "main_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": []
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Reverse Grip Pulldown",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/reverse-grip-pulldown",
+  "lead": "Exercise for back and biceps",
+  "instructions": {
+    "starting position": "Seated, thighs under the padded parts, bar grasped in supination, hands shoulder-width apart. Keep your back straight.",
+    "execution": "Pull the bar up to your upper chest. Keep the contraction for a moment, the shoulders well back before slowly returning to the initial position."
+  },
+  "equipment": [
+    "Lat Pulldown Machine",
+    "Lat Bar"
+  ],
+  "main_muscles": [
+    "Back"
+  ],
+  "secondary_muscles": [
+    "Biceps"
+  ]
+}

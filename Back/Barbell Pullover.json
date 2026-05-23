@@ -1,0 +1,21 @@
+{
+  "name": "Barbell Pullover",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/barbell-pullover",
+  "lead": "Exercise for back, chest and triceps",
+  "instructions": {
+    "starting position": "Lying on a bench, feet on the ground at shoulder width apart. Hold the barbell with your hands in pronation above your chest, arms almost fully extended.",
+    "execution": "With your elbows slightly bent, slowly lower the barbell behind your head in an arc. Once your arms are at your head level, slowly go back to the starting position."
+  },
+  "equipment": [
+    "Barbell",
+    "bench"
+  ],
+  "main_muscles": [
+    "Back",
+    "chest"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ]
+}

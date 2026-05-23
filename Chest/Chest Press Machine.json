@@ -1,0 +1,20 @@
+{
+  "name": "Chest Press Machine",
+  "category": "Chest",
+  "url": "https://www.simplyfitness.com/pages/chest-press-machine",
+  "lead": "Exercise for chest, triceps and shoulders",
+  "instructions": {
+    "starting position": "Set the chest press machine up so that when sitting down the handles are in line with the lower part of your chest. Make sure that you are sitting right back up against the seat. Grab hold of a handle in each hand, push your chest out, keep your head against the headrest.",
+    "execution": "Take a deep breath, and slowly push the handles forward until your arms are almost completely extended. Pause just before lockout, and then slowly return the handles back to the start position. Pausing just before the handles stop completely and repeating for another rep."
+  },
+  "equipment": [
+    "Chest Press machine"
+  ],
+  "main_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Triceps",
+    "front deltoids"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Incline Dumbbell Curl",
+  "category": "Biceps",
+  "url": "https://www.simplyfitness.com/pages/incline-dumbbell-curl",
+  "lead": "Exercise for biceps",
+  "instructions": {
+    "starting position": "Sitting on a bench with the backrest tilted at an angle of 40 to 60 degrees. Let your arms hang down towards the floor. Hold a dumbbell in each hand in supination.",
+    "execution": "Keeping your back well against the backrest, raise a dumbbell by bending your forearm towards your shoulder. Contract your biceps in the high position, then slowly return to the initial position. Keep your elbow close to your body during the movement. Alternate this movement one arm after the other."
+  },
+  "equipment": [
+    "Dumbbells",
+    "bench"
+  ],
+  "main_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": []
+}

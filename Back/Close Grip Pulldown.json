@@ -1,0 +1,20 @@
+{
+  "name": "Close Grip Pulldown",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/close-grip-pulldown",
+  "lead": "Exercise for back and biceps",
+  "instructions": {
+    "starting position": "Seated, thighs under the padded parts, the double handle grasped with both hands. Keep your back straight.",
+    "execution": "Pull the load up to your upper chest without moving your elbows away from your body. Keep the contraction for a moment before slowly returning to the initial position."
+  },
+  "equipment": [
+    "Lat Pulldown Machine",
+    "Lat Bar"
+  ],
+  "main_muscles": [
+    "Back"
+  ],
+  "secondary_muscles": [
+    "Biceps"
+  ]
+}

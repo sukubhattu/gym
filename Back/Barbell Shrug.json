@@ -1,0 +1,17 @@
+{
+  "name": "Barbell Shrug",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/barbell-shrug",
+  "lead": "Exercise for back",
+  "instructions": {
+    "starting position": "Standing, holding the bar in front of you, pronation grip, hands shoulder-width apart.",
+    "execution": "Keeping your arms outstretched, raise your shoulders as high as possible. Contract your trapezius muscles at the top of the movement, then slowly return to the initial position."
+  },
+  "equipment": [
+    "Barbell"
+  ],
+  "main_muscles": [
+    "Trapezius muscles"
+  ],
+  "secondary_muscles": []
+}

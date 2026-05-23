@@ -1,0 +1,25 @@
+{
+  "name": "Incline Dumbbell Bench Press",
+  "category": "Chest",
+  "url": "https://www.simplyfitness.com/pages/incline-dumbbell-bench-press",
+  "lead": "Exercise for chest, triceps and front deltoids",
+  "instructions": {
+    "starting position": "Lying on the sloping bench, your feet flat on the ground, one dumbbell in each hand, pronation grip. Hold the dumbbells at your sides at chest height. Your forearms should be perpendicular to the ground.",
+    "execution": "While contracting your pectorals, push the load upwards until your arms are almost straight, then return to the initial position.",
+    "tips": [
+      "Keep your elbows on the outside to put maximum stress on your pectorals and minimum stress on your anterior deltoids and triceps.",
+      "Keep your shoulders flat against the bench."
+    ]
+  },
+  "equipment": [
+    "Dumbbells",
+    "Bench"
+  ],
+  "main_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Front deltoids",
+    "triceps"
+  ]
+}

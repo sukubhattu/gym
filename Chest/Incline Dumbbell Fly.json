@@ -1,0 +1,24 @@
+{
+  "name": "Incline Dumbbell Fly",
+  "category": "Chest",
+  "url": "https://www.simplyfitness.com/pages/incline-dumbbell-fly",
+  "lead": "Exercise for chest and front deltoids",
+  "instructions": {
+    "starting position": "Lying on the sloping bench, your feet flat on the floor, one dumbbell in each hand. Hold the weights in a neutral grip with your arms outstretched above your chest.",
+    "execution": "Slowly lower the dumbbells to the sides in an arc with your arms until you feel a stretch in your pectorals. Do not go below shoulder level. Then return to the original position, making the same arc.",
+    "tips": [
+      "Keep your elbows pointed outward and slightly bent to reduce stress on the joint.",
+      "Keep your shoulders flat against the bench."
+    ]
+  },
+  "equipment": [
+    "Dumbbells",
+    "Bench"
+  ],
+  "main_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Front deltoids"
+  ]
+}

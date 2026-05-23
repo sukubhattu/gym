@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise Library</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <script src="_exercises_data.js"></script>
+
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --bg: #F5F4F1;
+        --surface: #FFFFFF;
+        --border: #E8E6E1;
+        --text: #1A1917;
+        --sub: #6B6860;
+        --accent: #E8431A;
+        --accent-s: #FFF0EC;
+        --blue-bg: #EEF3FF;
+        --radius: 16px;
+        --shadow: 0 2px 12px rgba(0, 0, 0, .07);
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'DM Sans', sans-serif;
+        min-height: 100vh;
+        max-width: 480px;
+        margin: 0 auto;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: var(--surface);
+        border-bottom: 1px solid var(--border);
+        padding: 14px 18px 12px;
+      }
+
+      .topbar-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .back-btn {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: var(--bg);
+        border: 1px solid var(--border);
+        cursor: pointer;
+        font-size: 1rem;
+        color: var(--text);
+        flex-shrink: 0;
+      }
+
+      .back-btn.visible {
+        display: flex;
+      }
+
+      .topbar-title {
+        flex: 1;
+        min-width: 0;
+      }
+
+      .topbar-sup {
+        font-size: 0.65rem;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--sub);
+        line-height: 1;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .topbar-name {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+        line-height: 1.1;
+        color: var(--text);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .topbar-badge {
+        flex-shrink: 0;
+        background: var(--accent-s);
+        color: var(--accent);
+        font-size: 0.7rem;
+        font-weight: 700;
+        padding: 4px 10px;
+        border-radius: 20px;
+        white-space: nowrap;
+      }
+
+      .search-wrap {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--bg);
+        border: 1.5px solid var(--border);
+        border-radius: 12px;
+        padding: 9px 14px;
+        transition: border-color .2s;
+      }
+
+      .search-wrap:focus-within {
+        border-color: var(--accent);
+      }
+
+      .search-wrap input {
+        flex: 1;
+        background: none;
+        border: none;
+        outline: none;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 0.92rem;
+        color: var(--text);
+      }
+
+      .search-wrap input::placeholder {
+        color: #B0AEA8;
+      }
+
+      .search-clear {
+        background: none;
+        border: none;
+        color: #B0AEA8;
+        cursor: pointer;
+        font-size: 1rem;
+        line-height: 1;
+        display: none;
+      }
+
+      .search-clear.show {
+        display: block;
+      }
+
+      .screen {
+        padding: 16px 16px 80px;
+      }
+
+      .screen.hidden {
+        display: none;
+      }
+
+      .cat-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+
+      .cat-card {
+        background: var(--surface);
+        border-radius: var(--radius);
+        border: 1.5px solid var(--border);
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: var(--shadow);
+        transition: transform .18s cubic-bezier(.34, 1.4, .64, 1), box-shadow .18s;
+        animation: popIn .35s both;
+      }
+
+      .cat-card:active {
+        transform: scale(.96);
+      }
+
+      .cat-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, .10);
+      }
+
+      @keyframes popIn {
+        from {
+          opacity: 0;
+          transform: scale(.9) translateY(10px);
+        }
+
+        to {
+          opacity: 1;
+          transform: scale(1) translateY(0);
+        }
+      }
+
+      .cat-thumb-wrap {
+        background: var(--blue-bg);
+        padding: 20px 16px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .cat-thumb {
+        width: 100%;
+        max-width: 120px;
+        height: 80px;
+        object-fit: contain;
+        display: block;
+      }
+
+      .cat-info {
+        padding: 10px 14px 13px;
+        border-top: 1px solid var(--border);
+      }
+
+      .cat-name {
+        font-weight: 700;
+        font-size: 0.9rem;
+        line-height: 1.2;
+        color: var(--text);
+      }
+
+      .cat-count {
+        margin-top: 3px;
+        font-size: 0.75rem;
+        color: var(--sub);
+        font-weight: 500;
+      }
+
+      .section-hdr {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 14px;
+      }
+
+      .section-hdr-title {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+      }
+
+      .section-hdr-count {
+        font-size: 0.75rem;
+        color: var(--sub);
+        font-weight: 600;
+      }
+
+      .ex-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .ex-card {
+        background: var(--surface);
+        border-radius: 14px;
+        border: 1.5px solid var(--border);
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: var(--shadow);
+        transition: transform .18s cubic-bezier(.34, 1.4, .64, 1);
+        animation: popIn .3s both;
+      }
+
+      .ex-card:active {
+        transform: scale(.95);
+      }
+
+      .ex-card:hover {
+        transform: translateY(-3px);
+      }
+
+      .ex-img-wrap {
+        aspect-ratio: 4/3;
+        background: var(--blue-bg);
+        overflow: hidden;
+        position: relative;
+      }
+
+      .ex-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform .3s;
+      }
+
+      .ex-card:hover .ex-img {
+        transform: scale(1.05);
+      }
+
+      .ex-img-ph {
+        display: none;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        position: absolute;
+        inset: 0;
+      }
+
+      .ex-body {
+        padding: 9px 11px 11px;
+      }
+
+      .ex-name {
+        font-size: 0.8rem;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--text);
+      }
+
+      .ex-muscle {
+        margin-top: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3px;
+      }
+
+      .ex-pill {
+        font-size: 0.62rem;
+        font-weight: 600;
+        padding: 2px 7px;
+        border-radius: 20px;
+        background: var(--accent-s);
+        color: var(--accent);
+        text-transform: capitalize;
+      }
+
+      .empty {
+        grid-column: 1/-1;
+        text-align: center;
+        padding: 60px 20px;
+        color: var(--sub);
+      }
+
+      .empty-text {
+        font-weight: 600;
+        font-size: 0.95rem;
+      }
+
+      .overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 200;
+        background: rgba(20, 18, 14, .5);
+        backdrop-filter: blur(4px);
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity .22s;
+      }
+
+      .overlay.open {
+        opacity: 1;
+        pointer-events: all;
+      }
+
+      .sheet {
+        background: var(--surface);
+        border-radius: 20px 20px 0 0;
+        width: 100%;
+        max-width: 480px;
+        max-height: 92vh;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        transform: translateY(50px);
+        transition: transform .28s cubic-bezier(.4, 0, .2, 1);
+      }
+
+      .overlay.open .sheet {
+        transform: translateY(0);
+      }
+
+      .drag-bar {
+        width: 36px;
+        height: 4px;
+        border-radius: 4px;
+        background: var(--border);
+        margin: 12px auto 0;
+      }
+
+      .sh-hero {
+        position: relative;
+        margin-top: 8px;
+        border-radius: 12px;
+        overflow: hidden;
+        margin: 10px 16px 0;
+      }
+
+      .sh-img {
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        display: block;
+        background: var(--blue-bg);
+      }
+
+      .view-full-btn {
+        position: absolute;
+        bottom: 12px;
+        right: 12px;
+        border: none;
+        background: rgba(0, 0, 0, .6);
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 10px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        cursor: pointer;
+        backdrop-filter: blur(4px);
+      }
+
+      .sh-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, .85);
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9rem;
+        color: var(--text);
+        backdrop-filter: blur(4px);
+      }
+
+      .sh-body {
+        padding: 16px 18px 40px;
+      }
+
+      .sh-cat {
+        font-size: 0.65rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+
+      .sh-title {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.9rem;
+        letter-spacing: 1px;
+        line-height: 1.1;
+        margin-top: 3px;
+      }
+
+      .sh-lead {
+        font-size: 0.9rem;
+        color: var(--sub);
+        line-height: 1.6;
+        margin-top: 6px;
+        padding-left: 10px;
+        border-left: 2px solid var(--accent);
+      }
+
+      .sh-sec {
+        margin-top: 18px;
+      }
+
+      .sh-sec-label {
+        font-size: 0.65rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--sub);
+        margin-bottom: 8px;
+      }
+
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+
+      .chip {
+        font-size: 0.78rem;
+        font-weight: 600;
+        padding: 5px 12px;
+        border-radius: 8px;
+        background: var(--bg);
+        color: var(--text);
+        border: 1px solid var(--border);
+      }
+
+      .chip.pri {
+        background: var(--accent-s);
+        color: var(--accent);
+        border-color: #fcc5b6;
+      }
+
+      .chip.sec {
+        background: #F0F0F8;
+        color: #4A4A8A;
+        border-color: #D8D8F0;
+      }
+
+      .instr-box {
+        background: var(--bg);
+        border-radius: 10px;
+        padding: 12px 14px;
+        margin-top: 6px;
+        border: 1px solid var(--border);
+      }
+
+      .instr-tag {
+        font-size: 0.6rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--sub);
+        margin-bottom: 4px;
+      }
+
+      .instr-txt {
+        font-size: 0.88rem;
+        line-height: 1.6;
+        color: #3A3834;
+      }
+
+      .tips-list {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        margin-top: 6px;
+      }
+
+      .tip-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        background: var(--bg);
+        border-radius: 10px;
+        padding: 10px 12px;
+        border: 1px solid var(--border);
+      }
+
+      .tip-num {
+        font-size: 0.65rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        background: var(--accent);
+        color: #fff;
+        padding: 2px 7px;
+        border-radius: 5px;
+        flex-shrink: 0;
+        margin-top: 1px;
+      }
+
+      .tip-txt {
+        font-size: 0.87rem;
+        line-height: 1.55;
+        color: #3A3834;
+      }
+
+      .cta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: 100%;
+        margin-top: 22px;
+        padding: 15px;
+        background: var(--text);
+        color: #fff;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 0.9rem;
+        text-decoration: none;
+        border-radius: 12px;
+        transition: opacity .15s;
+      }
+
+      .cta:hover {
+        opacity: .85;
+      }
+
+      .cta-dot {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: var(--accent);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.75rem;
+      }
+
+      .img-viewer {
+        position: fixed;
+        inset: 0;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.92);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity .25s ease;
+      }
+
+      .img-viewer.open {
+        opacity: 1;
+        pointer-events: all;
+      }
+
+      .img-viewer img {
+        max-width: 95%;
+        max-height: 95%;
+        object-fit: contain;
+        border-radius: 12px;
+      }
+
+      .img-viewer-close {
+        position: absolute;
+        top: 18px;
+        right: 18px;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        border: none;
+        background: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(6px);
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="topbar">
+      <div class="topbar-row">
+        <button class="back-btn" id="backBtn">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+            stroke-linejoin="round" viewBox="0 0 24 24">
+            <path d="M15 18l-6-6 6-6" />
+          </svg>
+        </button>
+
+        <div class="topbar-title">
+          <div class="topbar-sup" id="topSup">Simply Fitness</div>
+          <div class="topbar-name" id="topName">Exercise Library</div>
+        </div>
+
+        <div class="topbar-badge" id="topBadge">...</div>
+      </div>
+
+      <div class="search-wrap">
+        <svg width="15" height="15" fill="none" stroke="#B0AEA8" stroke-width="2.2" viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.35-4.35" />
+        </svg>
+
+        <input id="searchInput" type="search" placeholder="Search exercises" autocomplete="off" />
+
+        <button class="search-clear" id="searchClear">
+          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+            viewBox="0 0 24 24">
+            <path d="M18 6 6 18M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="screen" id="screenCats">
+      <div class="cat-grid" id="catGrid"></div>
+    </div>
+
+    <div class="screen hidden" id="screenEx">
+      <div class="section-hdr">
+        <div class="section-hdr-title" id="exTitle">Exercises</div>
+        <div class="section-hdr-count" id="exCount"></div>
+      </div>
+
+      <div class="ex-grid" id="exGrid"></div>
+    </div>
+
+    <div class="overlay" id="overlay">
+      <div class="sheet" id="sheet"></div>
+    </div>
+
+    <div class="img-viewer" id="imgViewer">
+      <button class="img-viewer-close" onclick="closeImageViewer()">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+          viewBox="0 0 24 24">
+          <path d="M18 6 6 18M6 6l12 12" />
+        </svg>
+      </button>
+
+      <img id="viewerImg" src="" alt="">
+    </div>
+
+    <script>
+
+      const CATS = Object.keys(EXERCISE_DATA).sort();
+
+      let activeCat = null;
+      let searchQuery = "";
+
+      const $ = id => document.getElementById(id);
+
+      function exCount(cat) {
+        return Object.keys(EXERCISE_DATA[cat]).length;
+      }
+
+      function totalCount() {
+        return CATS.reduce((n, c) => n + exCount(c), 0);
+      }
+
+      function updateTopbar() {
+        if (!activeCat && !searchQuery) {
+          $("topSup").textContent = "Simply Fitness";
+          $("topName").textContent = "Exercise Library";
+          $("topBadge").textContent = `${totalCount()} exercises`;
+          $("backBtn").classList.remove("visible");
+        } else if (activeCat && !searchQuery) {
+          $("topSup").textContent = "Category";
+          $("topName").textContent = activeCat;
+          $("topBadge").textContent = `${exCount(activeCat)} exercises`;
+          $("backBtn").classList.add("visible");
+        } else {
+          $("topSup").textContent = "Search";
+          $("topName").textContent = `"${searchQuery}"`;
+          const n = getSearchResults().length;
+          $("topBadge").textContent = `${n} result${n !== 1 ? "s" : ""}`;
+          $("backBtn").classList.add("visible");
+        }
+      }
+
+      function renderCats() {
+        $("screenCats").classList.remove("hidden");
+        $("screenEx").classList.add("hidden");
+
+        const grid = $("catGrid");
+
+        grid.innerHTML = CATS.map((cat, i) => `
+        <div class="cat-card" style="animation-delay:${i * 50}ms" onclick="openCat('${cat}')">
+          <div class="cat-thumb-wrap">
+            <img class="cat-thumb" src="${cat}/thumbnail.svg" alt="${cat}"/>
+          </div>
+
+          <div class="cat-info">
+            <div class="cat-name">${cat}</div>
+            <div class="cat-count">${exCount(cat)} exercises</div>
+          </div>
+        </div>
+      `).join("");
+      }
+
+      function getExercises() {
+        if (!activeCat) return [];
+
+        return Object.keys(EXERCISE_DATA[activeCat])
+          .sort()
+          .map(n => ({
+            cat: activeCat,
+            name: n
+          }));
+      }
+
+      function getSearchResults() {
+        const q = searchQuery.toLowerCase();
+
+        const all = CATS.flatMap(cat =>
+          Object.keys(EXERCISE_DATA[cat])
+            .sort()
+            .map(n => ({
+              cat,
+              name: n
+            }))
+        );
+
+        return all.filter(e => {
+          const d = EXERCISE_DATA[e.cat][e.name];
+
+          return e.name.toLowerCase().includes(q)
+            || e.cat.toLowerCase().includes(q)
+            || (d.main_muscles || []).some(m => m.toLowerCase().includes(q))
+            || (d.secondary_muscles || []).some(m => m.toLowerCase().includes(q))
+            || (d.equipment || []).some(m => m.toLowerCase().includes(q));
+        });
+      }
+
+      function renderExercises(list) {
+
+        $("screenCats").classList.add("hidden");
+        $("screenEx").classList.remove("hidden");
+
+        const grid = $("exGrid");
+
+        $("exTitle").textContent = searchQuery ? `"${searchQuery}"` : activeCat;
+
+        $("exCount").textContent = `${list.length} result${list.length !== 1 ? "s" : ""}`;
+
+        if (!list.length) {
+          grid.innerHTML = `
+          <div class="empty">
+            <div class="empty-text">No exercises found</div>
+          </div>
+        `;
+          return;
+        }
+
+        grid.innerHTML = list.map((e, i) => {
+
+          const d = EXERCISE_DATA[e.cat][e.name];
+
+          const muscles = (d.main_muscles || [])
+            .slice(0, 2)
+            .map(m => `<span class="ex-pill">${m}</span>`)
+            .join("");
+
+          const safeN = e.name.replace(/'/g, "\\'");
+
+          return `
+          <div class="ex-card"
+            style="animation-delay:${Math.min(i, 16) * 30}ms"
+            onclick="openModal('${e.cat}','${safeN}')">
+
+            <div class="ex-img-wrap">
+
+              <img class="ex-img"
+                src="${e.cat}/${e.name}.png"
+                alt="${e.name}"
+                loading="lazy"
+                onerror="if(this.src.endsWith('.png')){this.src=this.src.replace('.png','.svg')}else{this.style.display='none';this.nextElementSibling.style.display='flex'}"/>
+
+              <div class="ex-img-ph">${e.cat[0]}</div>
+
+            </div>
+
+            <div class="ex-body">
+              <div class="ex-name">${e.name}</div>
+              <div class="ex-muscle">${muscles}</div>
+            </div>
+
+          </div>
+        `;
+        }).join("");
+      }
+
+      function openCat(cat) {
+        activeCat = cat;
+        renderExercises(getExercises());
+        updateTopbar();
+        window.scrollTo(0, 0);
+      }
+
+      function goBack() {
+
+        if (searchQuery) {
+
+          searchQuery = "";
+
+          $("searchInput").value = "";
+
+          $("searchClear").classList.remove("show");
+
+          activeCat = null;
+
+          renderCats();
+
+        } else {
+
+          activeCat = null;
+
+          renderCats();
+        }
+
+        updateTopbar();
+
+        window.scrollTo(0, 0);
+      }
+
+      $("backBtn").onclick = goBack;
+
+      $("searchInput").addEventListener("input", e => {
+
+        searchQuery = e.target.value.trim();
+
+        $("searchClear").classList.toggle("show", searchQuery.length > 0);
+
+        if (searchQuery) {
+
+          activeCat = null;
+
+          renderExercises(getSearchResults());
+
+        } else {
+
+          activeCat = null;
+
+          renderCats();
+        }
+
+        updateTopbar();
+      });
+
+      $("searchClear").onclick = () => {
+
+        searchQuery = "";
+
+        $("searchInput").value = "";
+
+        $("searchClear").classList.remove("show");
+
+        activeCat = null;
+
+        renderCats();
+
+        updateTopbar();
+      };
+
+      const overlay = $("overlay");
+
+      const sheet = $("sheet");
+
+      overlay.addEventListener("click", e => {
+        if (e.target === overlay) closeModal();
+      });
+
+      document.addEventListener("keydown", e => {
+        if (e.key === "Escape") closeModal();
+      });
+
+      function closeModal() {
+        overlay.classList.remove("open");
+      }
+
+      function openImageViewer(src) {
+        $("viewerImg").src = src;
+        $("imgViewer").classList.add("open");
+      }
+
+      function closeImageViewer() {
+        $("imgViewer").classList.remove("open");
+      }
+
+      $("imgViewer").addEventListener("click", e => {
+        if (e.target.id === "imgViewer") {
+          closeImageViewer();
+        }
+      });
+
+      function openModal(cat, name) {
+
+        const d = EXERCISE_DATA[cat]?.[name];
+
+        if (!d) return;
+
+        const instr = d.instructions || {};
+
+        const tips = instr.tips || [];
+
+        const start = instr["starting position"] || instr.starting_position || "";
+
+        const exec = instr.execution || "";
+
+        const mainC = (d.main_muscles || [])
+          .map(m => `<span class="chip pri">${m}</span>`)
+          .join("");
+
+        const secC = (d.secondary_muscles || [])
+          .map(m => `<span class="chip sec">${m}</span>`)
+          .join("");
+
+        const equipC = (d.equipment || [])
+          .map(m => `<span class="chip">${m}</span>`)
+          .join("");
+
+        sheet.innerHTML = `
+        <div class="drag-bar"></div>
+
+        <div class="sh-hero">
+
+          <img class="sh-img"
+            src="${cat}/${name}.png"
+            alt="${name}"
+            onerror="if(this.src.endsWith('.png')){this.src=this.src.replace('.png','.svg')}else{this.style.display='none'}"/>
+
+          <button class="view-full-btn"
+            onclick="openImageViewer('${cat}/${name}.png')">
+            View Full
+          </button>
+
+          <button class="sh-close" onclick="closeModal()">
+            <svg width="14" height="14" fill="none" stroke="currentColor"
+              stroke-width="2.5" stroke-linecap="round" viewBox="0 0 24 24">
+              <path d="M18 6 6 18M6 6l12 12"/>
+            </svg>
+          </button>
+
+        </div>
+
+        <div class="sh-body">
+
+          <div class="sh-cat">${cat}</div>
+
+          <div class="sh-title">${d.name || name}</div>
+
+          ${d.lead ? `<div class="sh-lead">${d.lead}</div>` : ""}
+
+          ${mainC || secC ? `
+            <div class="sh-sec">
+              <div class="sh-sec-label">Muscles Targeted</div>
+              <div class="chips">${mainC}${secC}</div>
+            </div>
+          ` : ""}
+
+          ${equipC ? `
+            <div class="sh-sec">
+              <div class="sh-sec-label">Equipment</div>
+              <div class="chips">${equipC}</div>
+            </div>
+          ` : ""}
+
+          ${start ? `
+            <div class="sh-sec">
+              <div class="sh-sec-label">Starting Position</div>
+
+              <div class="instr-box">
+                <div class="instr-tag">Setup</div>
+                <div class="instr-txt">${start}</div>
+              </div>
+            </div>
+          ` : ""}
+
+          ${exec ? `
+            <div class="sh-sec">
+              <div class="sh-sec-label">Execution</div>
+
+              <div class="instr-box">
+                <div class="instr-tag">Movement</div>
+                <div class="instr-txt">${exec}</div>
+              </div>
+            </div>
+          ` : ""}
+
+          ${tips.length ? `
+            <div class="sh-sec">
+
+              <div class="sh-sec-label">Pro Tips</div>
+
+              <div class="tips-list">
+
+                ${tips.map((t, i) => `
+                  <div class="tip-row">
+                    <span class="tip-num">TIP ${i + 1}</span>
+                    <span class="tip-txt">${t}</span>
+                  </div>
+                `).join("")}
+
+              </div>
+
+            </div>
+          ` : ""}
+
+          ${d.url ? `
+            <a class="cta" href="${d.url}" target="_blank" rel="noopener">
+
+              View Full Guide
+
+              <span class="cta-dot">
+                <svg width="11" height="11" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" viewBox="0 0 24 24">
+                  <path d="M7 17 17 7M7 7h10v10"/>
+                </svg>
+              </span>
+
+            </a>
+          ` : ""}
+
+        </div>
+      `;
+
+        overlay.classList.add("open");
+      }
+
+      renderCats();
+
+      updateTopbar();
+
+    </script>
+
+  </body>
+
+</html>

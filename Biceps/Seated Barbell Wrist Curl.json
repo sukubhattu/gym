@@ -1,0 +1,19 @@
+{
+  "name": "Seated Barbell Wrist Curl",
+  "category": "Biceps",
+  "url": "https://www.simplyfitness.com/pages/seated-barbell-wrist-curl",
+  "lead": "Exercise for forearms",
+  "instructions": {
+    "starting position": "Grasp a barbell using an underhand grip (supinated, palms facing up) and sit down on the end of a flat bench. Rest the back of your forearms on the top of your thighs or on the end of the bench so that your wrists are just off the end of your knees or of the bench.",
+    "execution": "Without moving the forearms, slowly raise your hands up as far as possible squeezing the forearms muscles at the top of the movement. Pause, and then slowly lower the barbell back to the starting position. Repeat for desired reps."
+  },
+  "equipment": [
+    "Bar",
+    "plates",
+    "bench"
+  ],
+  "main_muscles": [
+    "Forearms"
+  ],
+  "secondary_muscles": []
+}

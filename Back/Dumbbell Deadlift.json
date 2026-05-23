@@ -1,0 +1,18 @@
+{
+  "name": "Dumbbell Deadlift",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/dumbbell-deadlift",
+  "lead": "Exercise mainly for back, legs and the whole body",
+  "instructions": {
+    "starting position": "Dumbbells on the ground on both sides of you. Your feet a little less than shoulder width apart, knees bent. Grab the dumbbells in a neutral grip. Torso slightly bent forward, back straight, shoulders pulled back and chest out. Inhale and tighten your abdominal muscles.",
+    "execution": "While keeping your arms outstretched, lift the dumbbells by extending your legs and straightening your torso to reach a vertical position. Exhale at the end of the motion. Then, slowly go back to the starting position. Always remember never to bend your back."
+  },
+  "equipment": [
+    "Dumbbells"
+  ],
+  "main_muscles": [
+    "Back",
+    "legs"
+  ],
+  "secondary_muscles": []
+}

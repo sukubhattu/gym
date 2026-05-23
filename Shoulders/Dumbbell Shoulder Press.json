@@ -1,0 +1,20 @@
+{
+  "name": "Dumbbell Shoulder Press",
+  "category": "Shoulders",
+  "url": "https://www.simplyfitness.com/pages/dumbbell-shoulder-press",
+  "lead": "Exercise for shoulders and triceps",
+  "instructions": {
+    "starting position": "Sitting on a bench with your back well supported against the backrest. Hold the dumbbells in your hands (pronation grip) a little above shoulder height. Your elbows are on the outside and your forearms are perpendicular to the ground.",
+    "execution": "Push the dumbbells upwards. Until your arms are fully extended. Then return to the original position."
+  },
+  "equipment": [
+    "Dumbbells",
+    "bench"
+  ],
+  "main_muscles": [
+    "Deltoids"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ]
+}

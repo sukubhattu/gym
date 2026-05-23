@@ -1,0 +1,19 @@
+{
+  "name": "Barbell Deadlift",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/barbell-deadlift",
+  "lead": "Exercise mainly for back, legs and the whole body",
+  "instructions": {
+    "starting position": "Barbell placed on the ground in front of you. Feet a little less than shoulder width apart with your knees bent. With your arms fully extended, grab the barbell in pronation, hands shoulder-width apart Keep your torso slightly bent forward, back straight, shoulders pulled back and chest out. Inhale and tighten your abdominal muscles.",
+    "execution": "While keeping your arms straight, lift the barbell by extending your legs and straightening your torso to reach a vertical position. Exhale at the end of the motion. Then slowly go back to the starting position. Always remember never to bend your back."
+  },
+  "equipment": [
+    "Barbell",
+    "plates"
+  ],
+  "main_muscles": [
+    "Back",
+    "legs"
+  ],
+  "secondary_muscles": []
+}

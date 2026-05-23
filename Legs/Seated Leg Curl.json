@@ -1,0 +1,19 @@
+{
+  "name": "Seated Leg Curl",
+  "category": "Legs",
+  "url": "https://www.simplyfitness.com/pages/seated-leg-curl",
+  "lead": "Exercise for hamstrings and calves",
+  "instructions": {
+    "starting position": "Adjust the leg curl sitting machine so that when you are sitting, the bottom of your knees are at the edge of the bench and the back of your ankles are just beyond the footrest. Sit with your back firmly against the backrest, holding the handles on the sides.",
+    "execution": "Bend your legs as far as possible. Hold the load for a moment in this position by contracting your ischial muscles, then return to the initial position."
+  },
+  "equipment": [
+    "Seated leg curl machine"
+  ],
+  "main_muscles": [
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Calves"
+  ]
+}

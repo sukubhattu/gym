@@ -1,0 +1,19 @@
+{
+  "name": "Wall Sit",
+  "category": "Legs",
+  "url": "https://www.simplyfitness.com/pages/wall-sit",
+  "lead": "Exercise for thigh, glutes, calves and core muscles",
+  "instructions": {
+    "starting position": "Stand upright with your back flat against the wall with feet about hip-width or slightly wider apart.",
+    "execution": "Lower yourself down into a squatting position by stepping your feet forward, while keeping your back flat against the wall. Stop when your thighs are parallel with the floor. Hold this position and then return to standing once completed."
+  },
+  "equipment": [
+    "A Flat Wall"
+  ],
+  "main_muscles": [
+    "Thigh and Glute Muscles"
+  ],
+  "secondary_muscles": [
+    "Calves"
+  ]
+}

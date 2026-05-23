@@ -1,0 +1,19 @@
+{
+  "name": "Squat",
+  "category": "Legs",
+  "url": "https://www.simplyfitness.com/pages/squat",
+  "lead": "Exercise for legs and abdominals",
+  "instructions": {
+    "starting position": "Standing with the bar resting on your trapezium and shoulders. Grasp the bar with your hands for a good support. Keep your head straight.",
+    "execution": "Bend your knees and hips as if you were sitting down. While keeping your back straight, let your buttocks go backwards, which will tilt your chest slightly forwards to make the movement as natural as possible. The moment your thighs are parallel to the ground, move upwards, doing the movement in the opposite direction. Given the complexity of this movement, ask a trainer in your gym to show you how to perform it correctly the first time."
+  },
+  "equipment": [
+    "Barbell"
+  ],
+  "main_muscles": [
+    "Thigh and buttock muscles"
+  ],
+  "secondary_muscles": [
+    "Abs and lumbar muscles"
+  ]
+}

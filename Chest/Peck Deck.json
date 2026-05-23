@@ -1,0 +1,19 @@
+{
+  "name": "Peck Deck",
+  "category": "Chest",
+  "url": "https://www.simplyfitness.com/pages/peck-deck",
+  "lead": "Exercise for chest and front deltoids",
+  "instructions": {
+    "starting position": "Sitting on the \"Peck deck\" machine with your back pressed against the backrest, your forearms well supported against the padded parts provided for this purpose. Your upper arms should be parallel to the ground and in line with your shoulders.",
+    "execution": "Tighten your arms as much as possible following the movement of the machine. Tighten your chest at the end of the movement and then slowly return to the initial position."
+  },
+  "equipment": [
+    "Peck Deck machine"
+  ],
+  "main_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Front deltoids"
+  ]
+}

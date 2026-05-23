@@ -1,0 +1,17 @@
+{
+  "name": "Lunge",
+  "category": "Legs",
+  "url": "https://www.simplyfitness.com/pages/lunge",
+  "lead": "Exercise for legs",
+  "instructions": {
+    "starting position": "Standing with legs hip-width apart, one dumbbell in each hand.",
+    "execution": "Keeping the bust straight, take a step forward and slowly descend until the forward thigh is parallel to the ground. Then return to the original position. Once you have completed your series, do the same with the other leg."
+  },
+  "equipment": [
+    "Dumbbells"
+  ],
+  "main_muscles": [
+    "Buttocks and thigh muscles"
+  ],
+  "secondary_muscles": []
+}

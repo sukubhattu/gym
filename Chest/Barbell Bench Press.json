@@ -1,0 +1,25 @@
+{
+  "name": "Barbell Bench Press",
+  "category": "Chest",
+  "url": "https://www.simplyfitness.com/pages/barbell-bench-press",
+  "lead": "Exercise for chest, triceps and front deltoids",
+  "instructions": {
+    "starting position": "Lying on the bench, your feet flat on the floor. Grasp the bar with a grip wider than shoulder width. Your forearms should be perpendicular to the floor.",
+    "execution": "Unhook the bar and slowly lower it to the lower part of your chest. As you contract your pectorals, push the load upwards until your arms are almost straight.",
+    "tips": [
+      "Keep your elbows on the outside to put maximum stress on your chest and minimum stress on your anterior deltoids and triceps.",
+      "Keep your shoulders flat against the bench."
+    ]
+  },
+  "equipment": [
+    "Barbell",
+    "Bench"
+  ],
+  "main_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Front deltoids",
+    "triceps"
+  ]
+}

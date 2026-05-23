@@ -1,0 +1,17 @@
+{
+  "name": "Leg Extension",
+  "category": "Legs",
+  "url": "https://www.simplyfitness.com/pages/leg-extension",
+  "lead": "Exercise for quadriceps",
+  "instructions": {
+    "starting position": "Adjust the leg extension so that when you sit down your knees are at the edge of the bench and your ankles are just below the footrest. Sit with your back firmly against the backrest, holding the handles on the sides.",
+    "execution": "Extend your legs until they are fully extended. Hold the load for a moment by contracting your quadriceps, then return to the lowered position."
+  },
+  "equipment": [
+    "Leg Extension machine"
+  ],
+  "main_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Plank",
+  "category": "Abdominals",
+  "url": "https://www.simplyfitness.com/pages/plank",
+  "lead": "Exercise for abdominals",
+  "instructions": {
+    "starting position": "Lying face down on the floor. Balance yourself on your forearms and toes, keeping your shoulders and buttocks at the same height.",
+    "execution": "Hold this position for the desired length of time while contracting your abs."
+  },
+  "equipment": [],
+  "main_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": []
+}

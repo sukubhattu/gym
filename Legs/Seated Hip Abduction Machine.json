@@ -1,0 +1,19 @@
+{
+  "name": "Seated Hip Abduction Machine",
+  "category": "Legs",
+  "url": "https://www.simplyfitness.com/pages/seated-hip-abduction-machine",
+  "lead": "Exercise for hip abductors and glute muscles",
+  "instructions": {
+    "starting position": "Sit down onto the machine with your knees inside and up against the pads. Pull the pin to release the pads. Grasp the handles at the sides.",
+    "execution": "Push out against the pads with your knees. When your hips are fully abducted, pause and then return to the starting position."
+  },
+  "equipment": [
+    "Hip Abduction Machine"
+  ],
+  "main_muscles": [
+    "Hip Abductors"
+  ],
+  "secondary_muscles": [
+    "Glute Muscles"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Seated Cable Row",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/seated-cable-row",
+  "lead": "Exercise for back, hind deltoids and biceps",
+  "instructions": {
+    "starting position": "Sitting on the machine's bench with your feet on the wedge. Grasp the double handle attached to the cable with both hands. Keep back straight and knees slightly bent.",
+    "execution": "Pull the load towards your abdomen. Tighten your back at the end of the movement by bringing your elbows as far back as possible. Then slowly return to the initial position."
+  },
+  "equipment": [
+    "Cable Machine"
+  ],
+  "main_muscles": [
+    "Back"
+  ],
+  "secondary_muscles": [
+    "Hind deltoids",
+    "biceps"
+  ]
+}

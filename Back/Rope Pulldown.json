@@ -1,0 +1,20 @@
+{
+  "name": "Rope Pulldown",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/rope-pulldown",
+  "lead": "Exercise for back and triceps",
+  "instructions": {
+    "starting position": "Standing facing the high pulley, knees slightly bent and bust slightly bent forward. Grasp one end of the rope in each hand in a neutral grip.",
+    "execution": "Pull the rope up to your hips, letting your arms describe an arc of a circle. Keep your elbows slightly bent and close to your body. At the end of the movement, contract your back by squeezing your shoulders back, then return to the initial position."
+  },
+  "equipment": [
+    "Cable Machine",
+    "Rope"
+  ],
+  "main_muscles": [
+    "Back"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ]
+}

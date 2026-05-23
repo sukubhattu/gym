@@ -1,0 +1,17 @@
+{
+  "name": "Leg Press",
+  "category": "Legs",
+  "url": "https://www.simplyfitness.com/pages/leg-press",
+  "lead": "Exercise for legs",
+  "instructions": {
+    "starting position": "Sitting on the press bench, feet flat on the platen, shoulder width apart.",
+    "execution": "Release the manual safety catch and slowly lower the load by bringing your knees towards your chest. When your knees are at a 90° angle, pause for a moment and then slowly raise the load. To protect your knees, stop the movement just before your legs are fully extended. During the movement, do not lift your buttocks off the bench."
+  },
+  "equipment": [
+    "Leg press machine"
+  ],
+  "main_muscles": [
+    "Thigh and buttock muscles"
+  ],
+  "secondary_muscles": []
+}

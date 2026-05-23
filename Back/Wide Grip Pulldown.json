@@ -1,0 +1,20 @@
+{
+  "name": "Wide Grip Pulldown",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/wide-grip-pulldown",
+  "lead": "Exercise for back and biceps",
+  "instructions": {
+    "starting position": "Sitting, thighs under the padded parts, the bar grasped in pronation, hands more apart than shoulder width. Keep elbows pointed outwards and back straight.",
+    "execution": "Pull the bar up to your chin. Keep the contraction for a moment before slowly returning to the initial position. During the movement, do not let your elbows come forward."
+  },
+  "equipment": [
+    "Lat Pulldown Machine",
+    "Lat Bar"
+  ],
+  "main_muscles": [
+    "Back"
+  ],
+  "secondary_muscles": [
+    "Biceps"
+  ]
+}

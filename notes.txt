@@ -1,0 +1,10 @@
+BASE = "https://www.simplyfitness.com"
+INDEX = "https://www.simplyfitness.com/pages/workout-exercise-guides"
+
+Notes:
+- Data was scraped from Simply Fitness exercise guides.
+- The original website was difficult to use on mobile during gym sessions.
+- This project reorganizes the content for faster and easier gym use.
+- Every exercise page contains a link to the original source page.
+- Original content belongs to Simply Fitness.
+- This project is for personal/educational convenience purposes.

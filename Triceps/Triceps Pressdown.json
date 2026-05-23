@@ -1,0 +1,18 @@
+{
+  "name": "Triceps Pressdown",
+  "category": "Triceps",
+  "url": "https://www.simplyfitness.com/pages/triceps-pressdown",
+  "lead": "Exercise for triceps",
+  "instructions": {
+    "starting position": "Standing facing the pulley, grasping the bar with a pronation grip, hands shoulder width apart.",
+    "execution": "Carry out an extension of the forearms until your arms are fully extended. In this position, contract your triceps for a moment and then slowly return to the initial position. Keep your elbows close to your body during the whole movement."
+  },
+  "equipment": [
+    "Cable Machine",
+    "Pressdown Bar"
+  ],
+  "main_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": []
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Barbell Declined Bench Press",
+  "category": "Chest",
+  "url": "https://www.simplyfitness.com/pages/barbell-declined-bench-press",
+  "lead": "Exercise for lower chest, triceps and anterior deltoids",
+  "instructions": {
+    "starting position": "Lying on the declined bench, with your legs pressed against the pads. Holding the barbell with a grip wider than the width of your shoulders, with your hands in pronation. Your forearms should be perpendicular to the ground.",
+    "execution": "Release the barbell and slowly lower it to the lower part of your pectorals. While contracting your chest muscles, push the weighted barbell upwards until your arms are almost stretched out.",
+    "tips": [
+      "Keep your elbows on the outside in order to strain your chest muscles as much as possible and your anterior deltoids and triceps as little as possible.",
+      "Keep your shoulders pressed against the bench."
+    ]
+  },
+  "equipment": [
+    "Barbell",
+    "declined bench",
+    "plates"
+  ],
+  "main_muscles": [
+    "Lower chest"
+  ],
+  "secondary_muscles": [
+    "Anterior deltoids",
+    "triceps"
+  ]
+}

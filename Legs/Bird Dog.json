@@ -1,0 +1,17 @@
+{
+  "name": "Bird Dog",
+  "category": "Legs",
+  "url": "https://www.simplyfitness.com/pages/bird-dog",
+  "lead": "Exercise for core muscles and glute muscles",
+  "instructions": {
+    "starting position": "Get down onto the mat. Position yourself on your hands and knees. Place your hands directly under your shoulders and your knees right under your hips.",
+    "execution": "While maintaining a neutral spine and bracing your core, extend one arm straight out in front of you and extend the opposite leg backwards until they’re parallel with the ground and you’ve created a straight line with your body. Keep your hips parallel to the ground. Hold this position briefly and then lower back to the starting position. Repeat with the opposite side."
+  },
+  "equipment": [
+    "Mat"
+  ],
+  "main_muscles": [],
+  "secondary_muscles": [
+    "Glute Muscles"
+  ]
+}

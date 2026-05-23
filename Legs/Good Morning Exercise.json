@@ -1,0 +1,17 @@
+{
+  "name": "Good Morning Exercise",
+  "category": "Legs",
+  "url": "https://www.simplyfitness.com/pages/good-morning",
+  "lead": "Exercise for hamstrings, glutes and core muscles",
+  "instructions": {
+    "starting position": "Stand up straight with the bar racked against your trapezius muscle and shoulders with hands placed just outside of your shoulders. Position your feet hip-width apart.",
+    "execution": "Allow your knees to flex slightly while you hinge forward by pushing your hips back behind you. Maintain a neutral spine position. Lower your chest while bracing your core until your chest is parallel with the floor. Extend your hips forward to return to the starting position."
+  },
+  "equipment": [
+    "Barbell"
+  ],
+  "main_muscles": [
+    "Hamstrings and Glute Muscles"
+  ],
+  "secondary_muscles": []
+}

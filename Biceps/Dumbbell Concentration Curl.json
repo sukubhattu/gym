@@ -1,0 +1,18 @@
+{
+  "name": "Dumbbell Concentration Curl",
+  "category": "Biceps",
+  "url": "https://www.simplyfitness.com/pages/dumbbell-concentration-curl",
+  "lead": "Exercise for biceps",
+  "instructions": {
+    "starting position": "Sitting on a bench, hold a dumbbell in your right hand, supine grip. With your chest slightly bent forward, rest your elbow on the inside of your right thigh, leaving your arm relaxed towards the ground.",
+    "execution": "Slowly bend your forearm as you bring the dumbbell towards your right shoulder. Contract your biceps in the high position, then slowly return to the initial position. Once your series is completed, move to the other arm."
+  },
+  "equipment": [
+    "Dumbbell",
+    "bench"
+  ],
+  "main_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": []
+}

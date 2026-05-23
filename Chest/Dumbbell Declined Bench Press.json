@@ -1,0 +1,26 @@
+{
+  "name": "Dumbbell Declined Bench Press",
+  "category": "Chest",
+  "url": "https://www.simplyfitness.com/pages/dumbbell-declined-bench-press",
+  "lead": "Exercise for lower chest, triceps and anterior deltoids",
+  "instructions": {
+    "starting position": "Lying on the declined bench, one dumbbell in each hand, pronation grip. Hold the dumbbells on the sides at chest height, elbows on the outside. Your forearms should be perpendicular to the ground.",
+    "execution": "While contracting your pectorals, push the dumbbells upwards until your arms are almost stretched out, and then go back to the starting position.",
+    "tips": [
+      "Keep your elbows on the outside to make sure your pectorals are fully engaged and your anterior deltoids and triceps are minimally engaged.",
+      "Keep your shoulders pressed against the bench."
+    ]
+  },
+  "equipment": [
+    "Dumbbells",
+    "declined bench",
+    "plates"
+  ],
+  "main_muscles": [
+    "Lower chest"
+  ],
+  "secondary_muscles": [
+    "Anterior deltoids",
+    "triceps"
+  ]
+}

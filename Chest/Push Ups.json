@@ -1,0 +1,19 @@
+{
+  "name": "Push Ups",
+  "category": "Chest",
+  "url": "https://www.simplyfitness.com/pages/push-ups",
+  "lead": "Exercise for chest, triceps, deltoids and biceps",
+  "instructions": {
+    "starting position": "Face down, arms outstretched, hands wide apart, resting on the floor and aligned with your pectoral muscles. Legs stretched and face pointed towards the ground.",
+    "execution": "Slowly bend your arms, letting your chest come closer to the ground, until your elbows form a 90 degrees angle. Then return to the starting position by pushing on your hands."
+  },
+  "equipment": [],
+  "main_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Deltoids",
+    "Triceps",
+    "Biceps"
+  ]
+}

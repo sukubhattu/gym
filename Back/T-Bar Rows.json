@@ -1,0 +1,21 @@
+{
+  "name": "T-Bar Rows",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/t-bar-rows",
+  "lead": "Exercise for back, shoulders and biceps",
+  "instructions": {
+    "starting position": "Use a T-Bar machine (or place a barbell in the corner of a room). Stand with feet either side of the bar, bend your knees, and bow forward so that your chest is directly over the plate on the barbell. Grab the handle in both hands.",
+    "execution": "Keeping your posture still, pull the handles so that the plate rises towards your chest. Pause just before it touches, and then slowly lower it back down."
+  },
+  "equipment": [
+    "T-Bar machine",
+    "plates"
+  ],
+  "main_muscles": [
+    "Back muscles"
+  ],
+  "secondary_muscles": [
+    "Rear deltoids",
+    "biceps"
+  ]
+}

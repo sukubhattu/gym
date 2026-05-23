@@ -1,0 +1,18 @@
+{
+  "name": "Kickback",
+  "category": "Triceps",
+  "url": "https://www.simplyfitness.com/pages/kickback",
+  "lead": "Exercise for triceps",
+  "instructions": {
+    "starting position": "Place your left knee and left hand on a bench, with your chest parallel to the floor. Keep your right foot on the ground and grasp the dumbbell in your right hand. Keeping it close to your body, raise the top of your right arm until it is parallel to the ground.",
+    "execution": "Perform an extension of the right arm. When it is fully extended, contract your triceps for a moment before returning to the initial position. Once you have completed your series, do the same with the other arm."
+  },
+  "equipment": [
+    "Dumbbell",
+    "Bench"
+  ],
+  "main_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": []
+}

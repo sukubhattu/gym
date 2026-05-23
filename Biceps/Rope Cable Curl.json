@@ -1,0 +1,18 @@
+{
+  "name": "Rope Cable Curl",
+  "category": "Biceps",
+  "url": "https://www.simplyfitness.com/pages/rope-cable-curl",
+  "lead": "Exercise for biceps",
+  "instructions": {
+    "starting position": "Standing in front of the pulley, knees slightly bent, grasp the rope with both hands, in neutral grip, arms relaxed along the body.",
+    "execution": "Without making a bust movement, bend your forearms, bringing your hands as close as possible to your shoulders, without bringing your elbows too far forward. Contract your biceps in a high position, then slowly return to the initial position."
+  },
+  "equipment": [
+    "Cable machine",
+    "rope"
+  ],
+  "main_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": []
+}

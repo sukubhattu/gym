@@ -1,0 +1,17 @@
+{
+  "name": "Alternating Dumbbell Curl",
+  "category": "Biceps",
+  "url": "https://www.simplyfitness.com/pages/alternating-dumbbell-curl",
+  "lead": "Exercise for biceps",
+  "instructions": {
+    "starting position": "Standing with knees slightly bent and back straight. Hold a dumbbell in each hand, in a neutral grip along the body.",
+    "execution": "Without making a bust movement, raise a dumbbell by bending the forearm. During the movement, rotate your wrist outwards until your hand is supine in the upright position. Contract your biceps, then slowly return to the initial position. Keep your elbow close to your body during the movement. Alternate this movement one arm after the other."
+  },
+  "equipment": [
+    "Dumbbells"
+  ],
+  "main_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": []
+}

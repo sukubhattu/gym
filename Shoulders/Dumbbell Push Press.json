@@ -1,0 +1,19 @@
+{
+  "name": "Dumbbell Push Press",
+  "category": "Shoulders",
+  "url": "https://www.simplyfitness.com/pages/dumbbell-push-press",
+  "lead": "Exercise for shoulders and triceps",
+  "instructions": {
+    "starting position": "Stand upright with a dumbbell resting on each shoulder and elbows pointed out in front of you. Feet should be shoulder width apart.",
+    "execution": "Bend knees slightly and then drive upwards, pushing the dumbbells straight up in the air and finishing with arms extended above your head. Pause, and then return to starting position."
+  },
+  "equipment": [
+    "Dumbbells"
+  ],
+  "main_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ]
+}

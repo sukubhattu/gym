@@ -1,0 +1,21 @@
+{
+  "name": "Dumbbell Bent Over Row (Single Arm)",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/dumbbell-bent-over-row-single-arm",
+  "lead": "Exercise for back, hind deltoids and biceps",
+  "instructions": {
+    "starting position": "Place your left knee and left hand on the bench with your chest parallel to the floor. Keep your right foot on the ground and grasp the dumbbell still on the ground in your right hand in a neutral grip.",
+    "execution": "Keeping your arm close to your body, lift the dumbbell as high as possible by raising your elbow and keeping your forearm perpendicular to the ground. Once your series is over, do the same with the other arm."
+  },
+  "equipment": [
+    "Dumbbell",
+    "Bench"
+  ],
+  "main_muscles": [
+    "Back"
+  ],
+  "secondary_muscles": [
+    "Hind Deltoids",
+    "biceps"
+  ]
+}

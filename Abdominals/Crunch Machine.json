@@ -1,0 +1,17 @@
+{
+  "name": "Crunch Machine",
+  "category": "Abdominals",
+  "url": "https://www.simplyfitness.com/pages/crunch-machine",
+  "lead": "Exercise for abdominals",
+  "instructions": {
+    "starting position": "Sitting on the machine holding the handles.",
+    "execution": "Contract your abs and stay in position for a moment before slowly returning to the starting position."
+  },
+  "equipment": [
+    "Crunch machine"
+  ],
+  "main_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": []
+}

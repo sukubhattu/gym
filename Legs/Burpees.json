@@ -1,0 +1,20 @@
+{
+  "name": "Burpees",
+  "category": "Legs",
+  "url": "https://www.simplyfitness.com/pages/burpees",
+  "lead": "Exercise for chest, triceps, deltoids, abs, glutes, quadriceps, hamstrings and calves",
+  "instructions": {
+    "starting position": "Start in a squat position with your hands on the ground and your head in line with the body.",
+    "execution": "While holding onto your hands, move both legs backwards into a face-up position and perform a push-up. Without stopping, bring your legs back to the initial squatting position, then perform a vertical jump by raising your hands towards the sky."
+  },
+  "equipment": [],
+  "main_muscles": [
+    "Chest",
+    "Triceps",
+    "Deltoids",
+    "Quadriceps, Hamstrings, Glutes",
+    "Calves",
+    "Abs"
+  ],
+  "secondary_muscles": []
+}

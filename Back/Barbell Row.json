@@ -1,0 +1,20 @@
+{
+  "name": "Barbell Row",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/barbell-row",
+  "lead": "Exercise for back, hind deltoids and biceps",
+  "instructions": {
+    "starting position": "Standing with slightly bent knees, grasping the bar with hands in pronation, grip wider than shoulder width. Bust bent forward, keep the back straight, the chest rounded.",
+    "execution": "Pull the load towards your abdomen. Tighten your back at the end of the movement, shoulders and elbows back. Then slowly return to the initial position."
+  },
+  "equipment": [
+    "Barbell"
+  ],
+  "main_muscles": [
+    "Back"
+  ],
+  "secondary_muscles": [
+    "Hind deltoids",
+    "biceps"
+  ]
+}

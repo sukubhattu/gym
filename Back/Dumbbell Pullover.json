@@ -1,0 +1,21 @@
+{
+  "name": "Dumbbell Pullover",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/dumbbell-pullover",
+  "lead": "Exercise for back, chest and triceps",
+  "instructions": {
+    "starting position": "Upper back resting crossways on the bench (see illustration). Feet on the ground, shoulder width apart, pelvis slightly lower than the height of the bench. Hold the dumbbell with both hands above your chest, with your arms almost fully extended.",
+    "execution": "While keeping your elbows slightly bent, slowly lower the dumbbell behind your head in an arc. When your arms reach your head level, slowly go back to the starting position."
+  },
+  "equipment": [
+    "Dumbbell",
+    "bench"
+  ],
+  "main_muscles": [
+    "Back",
+    "chest"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ]
+}

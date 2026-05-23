@@ -1,0 +1,17 @@
+{
+  "name": "EZ Barbell Curl",
+  "category": "Biceps",
+  "url": "https://www.simplyfitness.com/pages/ez-barbell-curl",
+  "lead": "Exercise for biceps",
+  "instructions": {
+    "starting position": "Standing with knees slightly bent and back straight. Hold the EZ bar with your hands in supination.",
+    "execution": "Without making a movement of bust, raise the EZ bar by bending the forearms. Contract your biceps in high position, then let the bar slowly come down again in the initial position. Keep your elbows close to your body during the movement."
+  },
+  "equipment": [
+    "EZ Barbell"
+  ],
+  "main_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": []
+}

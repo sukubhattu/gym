@@ -1,0 +1,18 @@
+{
+  "name": "EZ Barbell Preacher Curl",
+  "category": "Biceps",
+  "url": "https://www.simplyfitness.com/pages/ez-barbell-preacher-curl",
+  "lead": "Exercise for biceps",
+  "instructions": {
+    "starting position": "Sitting or standing, adjust the \"Larry Scott\" armrest so that it is slightly below the level of your shoulders. Rest your upper arms on the armrest and grasp the EZ bar with your hands in supination.",
+    "execution": "Slowly bend your forearms towards your shoulders while keeping your upper arms pressed against the armrest. Contract your biceps in the up position, then slowly return to the initial position. Be careful not to fully extend your forearms in the lowered position to avoid putting too much strain on the elbow joint."
+  },
+  "equipment": [
+    "Preacher bench",
+    "EZ Barbell"
+  ],
+  "main_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": []
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Dumbbell Overhead Triceps Extension",
+  "category": "Triceps",
+  "url": "https://www.simplyfitness.com/pages/dumbbell-overhead-triceps-extension",
+  "lead": "Exercise for triceps",
+  "instructions": {
+    "starting position": "Sitting on a bench, back straight, grasping a dumbbell with both hands, palms against the inside of a disc (see picture). Position the dumbbell above your head, arms outstretched, triceps well contracted.",
+    "execution": "Lower your forearms behind your head until your elbows form a 90° angle. Then extend the forearms, returning to the initial position."
+  },
+  "equipment": [
+    "Dumbbell",
+    "Bench"
+  ],
+  "main_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": []
+}

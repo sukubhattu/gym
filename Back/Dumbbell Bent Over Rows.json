@@ -1,0 +1,20 @@
+{
+  "name": "Dumbbell Bent Over Rows",
+  "category": "Back",
+  "url": "https://www.simplyfitness.com/pages/dumbbell-bent-over-rows",
+  "lead": "Exercise for back, biceps and hind deltoids",
+  "instructions": {
+    "starting position": "Standing, your knees slightly bent. Grasp the dumbbells with a neutral grip (palms facing each other). Lean forward while keeping your back straight and your chest bulged.",
+    "execution": "Pull the dumbbells towards your hips. Squeeze your back at the top of the movement, driving your shoulders and elbows behind the body. Then, slowly come back to the starting position. Keep your elbows tucked in throughout the movement."
+  },
+  "equipment": [
+    "Dumbbells"
+  ],
+  "main_muscles": [
+    "Back"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "hind deltoids"
+  ]
+}

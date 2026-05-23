@@ -1,0 +1,17 @@
+{
+  "name": "Dumbbell Front Raise",
+  "category": "Shoulders",
+  "url": "https://www.simplyfitness.com/pages/dumbbell-front-raise",
+  "lead": "Exercise for shoulders",
+  "instructions": {
+    "starting position": "Standing with feet about shoulder width apart, one dumbbell in each hand (pronation grip).",
+    "execution": "Slowly raise the arms forward until they are parallel to the ground. Contract your deltoids for a moment in the raised position, then slowly return to the initial position."
+  },
+  "equipment": [
+    "Dumbbells"
+  ],
+  "main_muscles": [
+    "Deltoids (mostly anterior bundle)"
+  ],
+  "secondary_muscles": []
+}

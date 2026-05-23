@@ -1,0 +1,20 @@
+{
+  "name": "Barbell Upright Row",
+  "category": "Shoulders",
+  "url": "https://www.simplyfitness.com/pages/barbell-upright-row",
+  "lead": "Exercise for shoulders, back and biceps",
+  "instructions": {
+    "starting position": "Standing, holding the bar in front of you, pronation grip, hands shoulder-width apart.",
+    "execution": "Lift the bar vertically to chest height. Contract for a moment, then return to the starting position. During the whole movement, keep the bar close to the body and the elbows higher than the wrists."
+  },
+  "equipment": [
+    "Barbell"
+  ],
+  "main_muscles": [
+    "Deltoids",
+    "trapezius muscles"
+  ],
+  "secondary_muscles": [
+    "Biceps and forearms"
+  ]
+}

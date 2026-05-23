@@ -1,0 +1,19 @@
+{
+  "name": "Lying Leg Curl",
+  "category": "Legs",
+  "url": "https://www.simplyfitness.com/pages/lying-leg-curl",
+  "lead": "Exercise for hamstrings and calves",
+  "instructions": {
+    "starting position": "Lie on your stomach on the \"leg curl lying down\" machine with the back of your ankles pressed against the footrest. Grasp the handles.",
+    "execution": "Leaning firmly on the bench, bend your legs as far as possible. Hold the load for a moment in the high position by contracting your ischial muscles, then slowly return to the low position."
+  },
+  "equipment": [
+    "Leg curl machine"
+  ],
+  "main_muscles": [
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Calves"
+  ]
+}

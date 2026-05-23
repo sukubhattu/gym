@@ -1,0 +1,18 @@
+{
+  "name": "Reverse Barbell Curl",
+  "category": "Biceps",
+  "url": "https://www.simplyfitness.com/pages/reverse-barbell-curl",
+  "lead": "Exercise for biceps and forearms",
+  "instructions": {
+    "starting position": "Stand in front of the cable machine, knees slightly bent and back straight, grasp the straight or EZ-bar with an overhand (pronated) grip and your hands about shoulder width apart.",
+    "execution": "Without moving the torso, slowly raise your forearms up as far as possible squeezing them at the top of the movement, pause, and then slowly lower the barbell back to the starting position. Keep the elbows tucked in throughout the movement. Repeat for desired reps."
+  },
+  "equipment": [
+    "Straight bar or EZ bar",
+    "plates"
+  ],
+  "main_muscles": [
+    "Biceps, Forearms"
+  ],
+  "secondary_muscles": []
+}
